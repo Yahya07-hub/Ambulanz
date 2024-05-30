@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiGyp8kv8JHgFVrLPTedw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLFj_V1s.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8V1s.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrFJA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9V1s.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6V1s.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7V1s.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDD4V1s.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLBT5V1s.ttf) format('truetype');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body,
+html {
+  width: 100vw;
+  height: 100%;
+}
+.name {
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+p {
+  color: var(--secondary-color);
+}
+.hero-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: url('/Images/about us hero template.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero-container .blueCurve {
+  height: 20vh;
+  position: absolute;
+  bottom: 23%;
+}
+.hero-container img {
+  width: 100vw;
+}
+.hero-container .text {
+  padding: 20vw 0 0 3vw;
+}
+.hero-container .text h1 {
+  width: fit-content;
+  font-size: 3vw;
+  background-color: rgba(238, 238, 238, 0.826);
+  padding: 1vw;
+  margin-bottom: 1vw;
+}
+.hero-container .text p {
+  width: fit-content;
+  padding: 0.7vw 1vw;
+  font-size: 1.4vw;
+  background-color: var(--secondary-color);
+  color: var(--light-gray);
+}
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100%;
+  background: linear-gradient(0deg, #ffffff 19%, #00a4df 100%);
+  padding: 3vw 6vw;
+}
+.container .top-container {
+  margin-bottom: 5vw;
+}
+.container .top-container h1 {
+  font-size: 6vw;
+  color: var(--secondary-color);
+}
+.container .top-container h1 .name {
+  color: var(--navy-blue);
+}
+.container .top-container p {
+  font-size: 1.8vw;
+}
+.container .mission-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+  grid-gap: 20px;
+  margin-bottom: 2vw;
+}
+.container .mission-container img {
+  width: 100%;
+  margin: 0 auto;
+}
+.container .mission-container .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .mission-container .text h1 {
+  font-size: 3vw;
+}
+.container .vision-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+  grid-gap: 20px;
+}
+.container .vision-container img {
+  width: 100%;
+  margin: 0 auto;
+}
+.container .vision-container .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .vision-container .text h1 {
+  font-size: 3vw;
+}

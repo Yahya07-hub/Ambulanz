@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Favicon -->
+    <link rel="shortcut icon" href="/Images/ambulaz_logo-removebg-preview.png">
+
+    <!-- Title -->
+    <title>Ambulanz</title>
+
+    <!-- remixIcon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- FonyAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- SHERY JS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- LOCOMOTIVE CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+
+</head>
+
+<body>
+
+    <section id="main">
+
+        <!-- Backdrop -->
+        <div class="backdrop"></div>
+
+        <!-- Inquiry Panel -->
+        <div class="inquiry">
+
+            <!-- Close Inquiry Button -->
+            <div class="closeEnquiryBtn">
+                <p>Close</p>
+            </div>
+
+            <div class="content">
+                <h3 class="title">Inquire Now</h3>
+                <p class="tagline">Together, forward in the fight against covid
+                </p>
+
+                <!-- Form Content -->
+                <form id="contactForm" class="form1">
+                    <h5 class="title">Get in touch with us</h5>
+
+                    <div class="inputdiv">
+                        <label for="name">Your Name*</label>
+                        <input type="text" id="fname" name="fname"><br><br>
+                    </div>
+                    <div class="inputdiv">
+                        <label for="number">Your Mobile Number*</label>
+                        <input type="number" id="number" name="number"><br><br>
+                    </div>
+                    <div class="inputdiv">
+                        <label for="email">Your Email*</label>
+                        <input type="text" id="fname" name="fname"><br><br>
+                    </div>
+                    <div class="inputdiv">
+                        <label for="name">Select Service*</label>
+                        <select id="service" name="service">
+                            <option value="road">Road Transport</option>
+                            <option value="air">Air Transport</option>
+                            <option value="rail">Rail Transport</option>
+                        </select>
+                    </div>
+                    <div class="inputdiv">
+                        <label for="name">Place</label>
+                        <input type="text" id="place" name="place"><br><br>
+                    </div>
+
+                    <div class="btnSection">
+                        <button id="contactbutton" class="btn btn1">Submit</button>
+                    </div>
+                    <p class="fontSmall info">*Mandatory Fields</p>
+                </form>
+
+            </div>
+
+        </div>
+
+        <!-- NavBar -->
+        <nav>
+            <!-- Logo -->
+            <a href="./index.html">
+                <img src="/Images/ambulaz_logo-removebg-preview.png" alt="">
+            </a>
+
+            <div class="right-nav">
+                <!-- Dropdown Buttons -->
+                <div class="dropdown">
+                    <button href="./ambulance.html" class="dropbtn">Ambulance</button>
+                    <div class="dropdown-content">
+                        <a href="air-ambulance.html">Air</a>
+                        <a href="road-Ambulance.html">Road</a>
+                        <a href="rail-ambulance.html">Railway</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Events</button>
+                    <div class="dropdown-content">
+                        <a href="#">Sports</a>
+                        <a href="#">Conferences</a>
+                        <a href="#">Weddings</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Institutes</button>
+                    <div class="dropdown-content">
+                        <a href="#">Corporates</a>
+                        <a href="#">School</a>
+                        <a href="#">Hospital</a>
+                        <a href="#">Shooting</a>
+                    </div>
+                </div>
+                <a href="./aboutUs.html">About Us</a>
+
+                <button id="enquiryBtn" class="button secondaryBtn magnet"><span><span>Enquire
+                            Now</span></span></button>
+                <!-- <button><i class="fa-solid fa-bars"></i></button> -->
+            </div>
+        </nav>
+
+        <!-- Page 1 -->
+        <section class="page1">
+
+            <div class="hero-container">
+                <div class="content">
+                    <div class="top">
+                        <h1>24/7 Emergency Ambulance Care with Ambulanz</h1>
+                        <h2>For Emergency Medical Service</h2>
+                        <p>Help / Rescues the Patient in case of the Emergency situation by doing just a click. Medulance
+                            Ambulance comes right in front of the door for help.</p>
+                    </div>
+                    <div class="bottom">
+                        <button id="enquiryBtn" class="button secondaryBtn magnet"><span><span>Enquire
+                            Now</span></span></button>
+                        <p>or</p>
+                        <h4>Call Our Assistance</h4>
+                        <button id="enquiryBtn" class="button secondaryBtn magnet"><span><span>+91 9172088513</span></span></button>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <img src="/Images/website-gif-final.gif" alt="">
+                </div>
+
+            </div>
+
+            <!-- <h5 class="scrollDown">Scroll <i class="fa-solid fa-arrow-down"></i></h5> -->
+
+            <!-- <img class="bg-image" src="https://i.pinimg.com/564x/97/33/a0/9733a087e9c4cdc46241c7232a6710f8.jpg" alt=""> -->
+            <!-- <video src="/Images/Ambulance video.mov" autoplay loop
+                muted></video> -->
+
+
+        </section>
+
+        <!-- About Us Section -->
+        <section class="aboutUs">
+            <div class="inner-container">
+                <div class="left-container">
+                    <h5>Who Are We</h5>
+                    <h1>India's One Of The Largest Emergency Response Company</h1>
+                    <p>With a fleet of over 1,000 ambulances and a presence in more than 550 cities, Ambulanz is
+                        dedicated to providing quick and reliable medical assistance. WWe understand that the loss of a
+                        loved one is a challenging experience, and our dedicated team is here to support you every step
+                        of the way.</p>
+                    <button class="primaryBtn">KNOW MORE</button>
+                </div>
+                <div class="right-container">
+                    <img src="/Images/about us.avif" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- Ambulance Section -->
+        <section class="ambulances">
+            <div class="section-header">
+                <h5>Ambulance</h5>
+                <h1>India's One Of The Largest Emergency Response Company</h1>
+                <p>At Ambulanz, we prioritize swiftness and scale, ensuring critical medical care is just moments away.
+                    With our advanced fleet and nationwide presence, we redefine emergency medical services, making a
+                    difference where it matters most.</p>
+                <button class="primaryBtn">KNOW MORE</button>
+            </div>
+            <div class="inner-container">
+                <div class="left-container">
+                    <div class="left-inner">
+                        <img src="/Images/ambulance icon img.jpg" alt="">
+                        <h5>ROAD <span><i>AMBULANCE</i></span></h5>
+                        <p>Experience unparalleled emergency medical response with our road ambulance services. Our
+                            fleet, equipped with cutting-edge technology and staffed by skilled professionals, ensures
+                            swift and secure transportation to medical facilities. Committed to excellence, we
+                            prioritize the well-being and safety of individuals in critical situations</p>
+                        <button class="button secondaryBtn magnet"><span><span>Know More >></span></span></button>
+                    </div>
+                    <div class="left-inner">
+                        <img src="/Images/ambulance-helicopter-red-medical-evacuation-helicopter-healthcare-hospital_268834-1089.avif"
+                            alt="">
+                        <h5>AIR <span><i>AMBULANCE</i></span></h5>
+                        <p>Discover rapid and comprehensive medical transport with our air ambulance services. Equipped
+                            with advanced life support systems and operated by experienced medical professionals, we
+                            ensure swift and secure air transportation for critical cases. </p>
+                        <button class="button secondaryBtn magnet"><span><span>Know More >></span></span></button>
+                    </div>
+                    <div class="left-inner last">
+                        <img src="/Images/railway_image_icon.png" alt="">
+                        <h5>RAIL <span><i>AMBULANCE</i></span></h5>
+                        <p>Introducing our rail ambulance services, a reliable and efficient mode of medical transport.
+                            With specially equipped rail cars and a dedicated medical team, we ensure safe and
+                            comfortable journeys for patients requiring long-distance transportation. Combining the
+                            speed of rail travel with advanced medical care, we are committed to providing seamless and
+                            compassionate services for individuals in need of critical care during transit.</p>
+                        <button class="button secondaryBtn magnet"><span><span>Know More >></span></span></button>
+                    </div>
+                </div>
+                <div class="right-container">
+                    <div class="images">
+                        <img src="https://images.unsplash.com/photo-1579037005241-a79202c7e9fd?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="">
+                        <img src="/Images/blue air ambulance.jpeg"
+                            alt="">
+                        <img src="https://images.unsplash.com/photo-1524747189276-85697ad1d098?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <div class="page2">
+            <canvas></canvas>
+        </div> -->
+
+        <!-- Why Choose Us Section -->
+        <section class="chooseUs">
+            <!-- <img class="img" src="/Images/why_choose_us-removebg-preview.png" alt=""> -->
+            <div class="section-header">
+                <h5>Why We Shine</h5>
+                <h1>Benefits of Choosing <span class="name">AMBULANZ</span></h1>
+            </div>
+
+            <div class="inner-container">
+                <div class="card">
+                    <div class="img"></div>
+                    <img src="/Images/Hospital_bg.png" alt="">
+                    <h1>Comprehensive Services</h1>
+                    <p>From documentation assistance to international transportation, we offer a full spectrum of repatriation services. Our comprehensive approach ensures that every aspect of the process is handled with care and professionalism.</p>
+                </div>
+                <div class="card">
+                    <img src="/Images/peaceofmind.png" alt="">
+                    <h1>Peace of Mind</h1>
+                    <p>Trusting <span class="name">AMBULANZ</span> means peace of mind during a challenging time. Our experienced team manages the intricate details, allowing you to focus on honoring the memory of your loved one without the added stress of logistics.</p>
+                </div>
+                <div class="card">
+                    <img src="/Images/Global_reach.png" alt="">
+                    <h1>Global Reach</h1>
+                    <p>With a network that spans the globe, we facilitate repatriations to and from various countries. Our international expertise and connections enable us to seamlessly navigate the complexities of cross-border transportation.</p>
+                </div>
+                <div class="card">
+                    <img src="/Images/professionalism.png" alt="">
+                    <h1>Professionalism and Expertise</h1>
+                    <p>Benefit from the professionalism and expertise of our team. With years of experience in the repatriation industry, we bring a wealth of knowledge to every situation, ensuring a dignified and respectful process.</p>
+                </div>
+                <div class="card">
+                    <img src="/Images/24_7_service.png" alt="">
+                    <h1>24/7 Support</h1>
+                    <p>Grief doesn't adhere to a schedule, and neither do we. Our 24/7 support ensures that you can reach out to us whenever you need assistance, providing comfort and reassurance around the clock.</p>
+                </div>
+                <div class="card">
+                    <img src="/Images/transparentCommunication.png" alt="">
+                    <h1>Transparent Communication</h1>
+                    <p>Clear and transparent communication is a cornerstone of our service. Stay informed at every step, receive timely updates, and have your questions addressed promptly. Our commitment to open communication builds trust and transparency.</p>
+                </div>
+                
+            </div>
+
+            <img class="whiteCurve" src="/Images/white-curve.png" alt="">
+        </section>
+
+        <!-- About Us Section -->
+        <section class="contactUs">
+            <div class="inner-container">
+                <div class="left-container">
+                    <img src="/Images/contact_us.avif" alt="">
+                </div>
+
+                <div class="right-container">
+                    <h5>DONT HESITATE</h5>
+                    <h1>Reach Out to Us Now</h1>
+                    <p>Grief and emergencies don't adhere to regular business hours. Our dedicated team is available
+                        around the clock, 24/7, to deliver top-notch emergency response services across India. Don't
+                        hesitate; reach out to <span>AMBULANZ</span> now for immediate care and assistance.</p>
+                    <a href="#" class="emergencyNo">
+                        <i class="fa-solid fa-phone"></i>
+                        <div class="text">
+                            <h2>save it for emergency</h2>
+                            <p>Call Us: 1800 121 911 911</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <div class="swiper mySwiper">
+            <div class="section-header">
+                <i class="fa-solid fa-quote-left"></i>
+                <h1>Clients <br><span>Feed</span><span>back</span></h1>
+                <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div id="content">
+                        <div class="testimonial">
+                            <blockquote>
+                                <h2>"An Exceptional Service"</h2>
+                                During a challenging time, AMBULANZ provided an exceptional service. Their attention to detail, compassion, and seamless coordination made the repatriation process much more manageable. I'm grateful for their professionalism and genuine care.
+                            </blockquote>
+                            <div></div>
+                            <p>
+                                Priyanka Trivedi &mdash; Delhi
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div id="content">
+                        <div class="testimonial">
+                            <blockquote>
+                                <h2>"Compassion Beyond Compare"</h2>
+                                Very highly recommend AMBULANZ for their compassion and understanding during a difficult period. Their team went above and beyond to ensure the repatriation was conducted with respect and adherence to our cultural practices.
+                            </blockquote>
+                            <div></div>
+                            <p>
+                                John Doe &mdash; Delhi
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div id="content">
+                        <div class="testimonial">
+                            <blockquote>
+                                <h2>"Swift and Supportive"</h2>
+                                AMBULANZ was not only swift in their response but also incredibly supportive throughout the entire repatriation process. Their transparent communication and dedicated team made a significant difference during a time of grief.
+                            </blockquote>
+                            <div></div>
+                            <p>
+                                Neetu Shetty &mdash; Bengaluru
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div id="content">
+                        <div class="testimonial">
+                            <blockquote>
+                                <h2>"Professionalism Redefined"</h2>
+                                The professionalism exhibited by [Your Repatriation Business Name] is truly commendable. They handled every aspect of the repatriation with precision and care, providing a sense of assurance and comfort to our family.
+                            </blockquote>
+                            <div></div>
+                            <p>
+                                Ranita Sen &mdash; Kolkata
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div id="content">
+                        <div class="testimonial">
+                            <blockquote>
+                                <h2>"Responsive and Reliable"</h2>
+                                Choosing AMBULANZ was the right decision. Their 24/7 availability, prompt responses, and reliable services showcased their commitment to providing assistance when it matters most. Thank you for your unwavering support.
+                            </blockquote>
+                            <div></div>
+                            <p>
+                                Piyush &mdash; Mumbai
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div id="content">
+                        <div class="testimonial">
+                            <blockquote>
+                                <h2>"A Guiding Hand"</h2>
+                                AMBULANZ served as a guiding hand throughout the repatriation process. Their personalized approach, cultural sensitivity, and attention to detail made a significant impact during a challenging time. Highly recommended.
+                            </blockquote>
+                            <div></div>
+                            <p>
+                                Aarush &mdash; Mumbai
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+
+            <div class="footer-top">
+                <img src="/Images/Ambulanz_footer_logo.png" alt="">
+                <!-- <button>BOOK A DEMO</button> -->
+            </div>
+
+            <div class="footer-mid">
+                <div class="mid-inner">
+                    <h1>Facebook</h1>
+                    <i class="ri-arrow-right-up-line"></i>
+                </div>
+                <div class="mid-inner">
+                    <h1>LinkedIn</h1>
+                    <i class="ri-arrow-right-up-line"></i>
+                </div>
+                <div class="mid-inner">
+                    <h1>Instagram</h1>
+                    <i class="ri-arrow-right-up-line"></i>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+
+                <div class="bottom-1">
+                    <h4><a href="#">Home</a></h4>
+                    <a href="#">- Ambulance</a>
+                    <a href="#">- Hospital</a>
+                    <a href="#">- About Us</a>
+                    <a href="#"></a>
+
+                </div>
+                <div class="bottom-2">
+                    <h4><a href="#">Events</a></h4>
+                    <a href="#">- Sports</a>
+                    <a href="#">- Conferences</a>
+                    <a href="#">- Weddings</a>
+
+                </div>
+                <div class="bottom-3">
+                    <h4><a href="#">Institutes</a></h4>
+                    <a href="#">- Corporates</a>
+                    <a href="#">- School</a>
+                    <a href="#">- Hospitals</a>
+                    <a href="#">- Shootings</a>
+                </div>
+                <div class="bottom-4">
+                    <h4><a href="#">Resources</a></h4>
+                    <a href="#">- Contact Us</a>
+                    <a href="#">- FAQ's</a>
+
+                </div>
+
+            </div>
+
+            <div class="copyright">
+                <p>Copyright © 2024 | Ambulanz | All Rights Reserved | Site Map</p>
+                <p>Indked by Yahya Bhabay</p>
+            </div>
+            </div>
+        </footer>
+    </section id="main">
+
+
+
+    <!-- LOCOMOTIVE JS is needed for smooth scrolling -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script> -->
+
+    <!-- Gsap is needed for Basic Effects  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <!-- Scroll Trigger is needed for Scroll Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- Three.js is needed for 3d Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+    <!-- SHERY JS CDN -->
+    <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            breakpoints: {
+                300: {
+                    slidesPerView: 1,
+                    // spaceBetween: 20,
+                },
+               
+                1024: {
+                    slidesPerView: 1.5,
+                    //   spaceBetween: 50,
+                },
+            },
+        });
+    </script>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
